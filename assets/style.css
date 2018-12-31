@@ -14,31 +14,68 @@ body {
 }
 
 h1 {
-  font-size: 128px;
-  font-weight: 100;
+  font-size: 72px;
+  font-weight: 500;
+  color: black;
+  margin-top: 70px;
 }
 
 button {
-  padding: 22px;
   border-radius: 5px;
-  font-size: 20px;
-  background: #777777;
+  font-size: 17px;
+  background: #505050;
   color: white;
-  margin-top: 128px;
   font-weight: 100;
   cursor: pointer;
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  vertical-align: middle;
+  padding: 5px;
+
 }
 
 button:hover {
-  background: #555555;
+  background: #303030;
 }
 
 button:active {
-  background: #222222;
+  background: #101010;
 }
 
-p {
-  margin-top: 40px;
-  font-size: 75px;
-  font-weight: bold;
+input {
+  font-size: 28px;
+  font-weight: 300;
+  width: 75%;
+  display: inline-block;
+  height: 40px;
+  vertical-align: middle;
+  padding: 5px;
+  padding-left: 15px;
+  border: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+p.header-description {
+  margin-top: 15px;
+  font-size: 27px;
+  font-weight: 300;
+  color: #505050;
+}
+
+form.random-name {
+  width: 500px;
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.form-container {
+    display: block;
 }
