@@ -2,16 +2,12 @@ var form = document.getElementById("random-name-form");
 
 form.onsubmit = function(event) {
     event.preventDefault();
-
     loadXMLDoc("/getRandomName");
-
     return false;
 }
 
-
 function loadXMLDoc(url) {
     var xmlhttp = new XMLHttpRequest();
-
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == XMLHttpRequest.DONE) {
            if (xmlhttp.status == 200) {
@@ -26,7 +22,6 @@ function loadXMLDoc(url) {
            }
         }
     };
-
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
