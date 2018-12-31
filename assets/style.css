@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 64px 32px 64px 32px;
+}
+
+h1 {
+  font-size: 128px;
+  font-weight: 100;
+}
+
+button {
+  padding: 22px;
+  border-radius: 5px;
+  font-size: 20px;
+  background: #777777;
+  color: white;
+  margin-top: 128px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555555;
+}
+
+button:active {
+  background: #222222;
+}
+
+p {
+  margin-top: 40px;
+  font-size: 75px;
+  font-weight: bold;
+}
