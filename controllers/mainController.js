@@ -1,4 +1,5 @@
 var helper = require('../helper');
+var path = require('path');
 
 module.exports = function(app) {
 
@@ -8,7 +9,7 @@ module.exports = function(app) {
     //res.sendFile('views/index.html', {
     //  root: helper.trimDirectory(__dirname)
     //});
-	res.sendFile('views/index.html', { root: __dirname });
+	res.sendFile(path.resolve('views/index.html'));
 
   });
 
